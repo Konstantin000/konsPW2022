@@ -1,0 +1,19 @@
+*{color: goldenrod;}
+/* se que todo lo que escriba va tener ese mismo color por el "*", sino lo modifico*/
+
+#padding-interno{padding: 50px;}
+/* Lo alejado que quiero estar del borde*/
+
+#whatsapp{position: fixed;bottom: 10px;right: 10px;}
+/*Lo que permite es poner un bloque en la parte derecha de la pantalla*/
+/*#whatsapp{position: fixed;right: 50VW;}Va estar en el medio  de la pantalla*/
+/* VOY A VER SI COLOCO EL WHATSAPP*/
+
+body{background-color: black;}
+/*Me permite modificar el fondo de la pagina*/
+
+.titular{background-color: cadetblue;color: salmon;font-size: 50px;}
+/*me permite modificar en un cierto lugar el fondo del titutlo y la palabra*/
+
+#titular3{color: aqua;}
+/*otro tipo de resaltado de titular*/
