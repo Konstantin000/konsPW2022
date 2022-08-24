@@ -17,3 +17,6 @@ body{background-color: black;}
 
 #titular3{color: aqua;}
 /*otro tipo de resaltado de titular*/
+
+#relativa{position:relative;left: 100px;top: 100px;}
+/* me sale fuera de la pantalla una kaka*/
