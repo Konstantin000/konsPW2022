@@ -1,0 +1,9 @@
+#imagen-responsive{width: 25vw;}
+/* es para ajustar la imagen en cualquier dispositivo*/
+
+li{display: inline;margin-left: 30px;}
+/*Este me permite poner uno alado de otro*/
+
+*{font-family:"Arial","Sans-Serif";font-style: "italic";} 
+/*para la fuente de la letra*/
+
