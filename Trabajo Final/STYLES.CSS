@@ -22,3 +22,15 @@ body{background-color: black;}
 /* me sale fuera de la pantalla una kaka*/
 
 #centrar_texto{}
+
+li{display: inline;margin-left: 100px;}
+/*Este me permite poner uno alado de otro*/
+
+span{border: 1px solid gold;display: block;}
+/*si no pongo display block me va mantener en la linea con este me lo tira para abajo*/
+
+#imagen-responsive{width: 15vw;}
+/* es para ajustar la imagen en cualquier dispositivo*/
+
+*{font-family:"Courier New","Sans-Serif";font-style: "italic";} 
+/*para la fuente de la letra*/
