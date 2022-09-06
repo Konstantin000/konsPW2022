@@ -4,6 +4,28 @@
 li{display: inline;margin-left: 30px;}
 /*Este me permite poner uno alado de otro*/
 
-*{font-family:"Arial","Sans-Serif";font-style: "italic";} 
+*{font-family:"Courier New","Sans-Serif";font-style: "italic";} 
 /*para la fuente de la letra*/
 
+body{background-color: brown;}
+/*fondos*/
+
+#caja1{border:1px solid royalblue ; margin: 50px;padding-top: 100px;}
+/* me recuadra la caja en la que esta el texto*/
+
+#caja2{margin: 10px 20px 30px 40px; border: solid white;}
+/* me encuadra sin poner todos las posiciones, solamente pongo las distancias ahi*/
+
+-imagen-responsive{width: 25%;display: none;}
+/*lo que va hacer es desaparecer si lo quiero para celular o algun dispositivo*/
+
+li{display: inline;margin-left: 100px;}
+
+span{border: 1px solid gold;display: block;}
+/*si no pongo display block me va mantener en la linea con este me lo tira para abajo*/
+
+*{font-style: italic;}
+/* para que todos se me inclinen*/
+
+*{font-weight:900;}
+/* me pone directo todo en negrita*/ 
