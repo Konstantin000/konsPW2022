@@ -1,0 +1,3 @@
+.flex-container {display: flex;flex-direction: column;flex-wrap: nowrap;background-color: blue;}
+
+.contenido{background-color: gold;width: 100px;margin: 10px;text-align: center;line-height: 75px;font-size: 20px;}
