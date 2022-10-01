@@ -1,6 +1,3 @@
-
-
-
 *{color: goldenrod;}
 /* se que todo lo que escriba va tener ese mismo color por el "*", sino lo modifico*/
 
@@ -13,12 +10,16 @@
 /* VOY A VER SI COLOCO EL WHATSAPP*/
 
 
+/*Me permite modificar el fondo de la pagina*/
+
+.titular{background-color: cadetblue;color: salmon;font-size: 50px;}
+/*me permite modificar en un cierto lugar el fondo del titutlo y la palabra*/
+
 #titular3{color: aqua;}
 /*otro tipo de resaltado de titular*/
 
 #relativa{position:relative;left: 100px;top: 100px;}
 /* me sale fuera de la pantalla una kaka*/
-
 
 
 li{display: inline;margin-left: 100px;}
@@ -30,9 +31,6 @@ span{border: 1px solid gold;display: block;}
 #imagen-responsive{width: 15vw;}
 /* es para ajustar la imagen en cualquier dispositivo*/
 
-*{font-family:"Courier New","Sans-Serif";font-style: "italic"; background-color: black;} 
+*{font-family:"Courier New","Sans-Serif";font-style: "italic";} 
 /*para la fuente de la letra*/
-
-.container {  display: flex;justify-content: center;}
-
-.centradoUltimo{pantalla:flex;justify-content:center;}
+  
