@@ -34,3 +34,18 @@ span{border: 1px solid gold;display: block;}
 *{font-family:"Courier New","Sans-Serif";font-style: "italic";} 
 /*para la fuente de la letra*/
   
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3)
+    z-index: 100;}
