@@ -36,3 +36,5 @@ span{border: 1px solid gold;display: block;}
 .container {  display: flex;justify-content: center;}
 
 .centradoUltimo{pantalla:flex;justify-content:center;}
+
+(max-width: 400px){body{background-color: blueviolet;}}
