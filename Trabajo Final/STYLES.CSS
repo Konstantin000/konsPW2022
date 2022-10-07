@@ -1,20 +1,13 @@
-
-
-
-*{color: goldenrod;}
+*{color: rgb(250, 250, 250);}
 /* se que todo lo que escriba va tener ese mismo color por el "*", sino lo modifico*/
 
-#padding-interno{padding: 50px;}
+/*#padding-interno{padding: 50px;}
 /* Lo alejado que quiero estar del borde*/
 
-#whatsapp{position: fixed;bottom: 10px;right: 10px;}
-/*Lo que permite es poner un bloque en la parte derecha de la pantalla*/
-/*#whatsapp{position: fixed;right: 50VW;}Va estar en el medio  de la pantalla*/
-/* VOY A VER SI COLOCO EL WHATSAPP NO ME SIRVE YA*/
+*{background-image: url(./imagenes.Final/fondo\ de\ madera\ negro.jpg);}
 
 
-#titular3{color: aqua;}
-/*otro tipo de resaltado de titular*/
+
 
 #relativa{position:relative;left: 100px;top: 100px;}
 /* me sale fuera de la pantalla una kaka*/
@@ -24,13 +17,13 @@
 li{display: inline;margin-left: 100px;}
 /*Este me permite poner uno alado de otro*/
 
-span{border: 1px solid gold;display: block;}
+/*span{border: 1px solid rgb(253, 253, 253);display: block;}
 /*si no pongo display block me va mantener en la linea con este me lo tira para abajo*/
 
 #imagen-responsive{width: 15vw;}
 /* es para ajustar la imagen en cualquier dispositivo*/
 
-*{font-family:"Courier New","Sans-Serif";font-style: "italic"; background-color: black;} 
+/*{font-family:"Courier New","Sans-Serif";font-style: "italic"; background-color: black;}*/
 /*para la fuente de la letra*/
 
 .container {  display: flex;justify-content: center;}
@@ -38,7 +31,6 @@ span{border: 1px solid gold;display: block;}
 
 .centradoUltimo{pantalla:flex;justify-content:center;}
 
-(max-width: 400px){body{background-color: blueviolet;}}
 
 
 .btn-wsp{
@@ -63,5 +55,62 @@ span{border: 1px solid gold;display: block;}
 /*whatapp*/
 
 
-.contenedor{width: 100%;max-width: ;;margin: 0 auto;overflow:hidden ;}
+/*.contenedor{width: 100%;max-width: ;;margin: 0 auto;overflow:hidden ;}*/
+    
+
+
+
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
     

@@ -7,40 +7,44 @@
     <title>Venta de alcohol</title>
 
     <!------------------------------------------------------------------->
+
     <link rel="stylesheet" href="./STYLES.CSS">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <meta name = " viewport " content = " width - device - width , user - scalable = no , initial - scale = 1.0 , maximum - scale = 1.0 , minimum - scale = 1.0 " >
-<!--PAR QUE NO PUEDA ESCALAR LA PAGINA-->
-            <!--links de css Y  boustrap-->
-</head>
-<body>
+    
+    <!--links de css Y  boustrap-->
+      
+    
+
   <Div class="contenedor">
     <div class="container"><h1>АЛКОГОЛЬ</h1> </div>
-            <!---NOSE PORQUE NO ME FUNCIONA PARA CAMBIAR DE COLOR?-->
+            <!---BOTONES PRINCIPALES-->
+            <nav class="navbar navbar-expand-lg bg-light">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" > <span  type="button" class="btn btn-outline-light">COMBOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" > <span type="button" class="btn btn-outline-light">INDIVIDUAL</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" > <span type="button" class="btn btn-outline-warning">PEDIR</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" > <span type="button" class="btn btn-outline-light">MEZCLAS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" > <span type="button" class="btn btn-outline-light">REDES</a>
+                    </li>
+                  </form>
+                </div>
+              </div>
+            </nav>
 
-            <main><ul>
-                <li> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><span class="material-symbols-outlined">home        
-                </span></li>
-                <div class="container text-center">
-                    <div class="row">
-                      <div class="col">
-                        <a href="index.html#ladodecombos"><button type="button" class="btn btn-outline-light">COMBOS</button></a>
-                      </div>
-                      <div class="col">
-                        <a href="index.html#ladodeindividual"><button type="button" class="btn btn-outline-light">INDIVIDUAL</button></a>
-                      </div>
-                      <div class="col">
-                        <button type="button" class="btn btn-outline-warning">PEDIR</button>
-                      </div>
-                      <div class="col">
-                        <a href="index.html#ladodemezclas"><button type="button" class="btn btn-outline-light">MEZCLAS</button></a>
-                      </div>
-                      <div class="col">
-                        <a href="index.html#ladoderedes"><button type="button" class="btn btn-outline-light">REDES</button></a>
-                      </div>
-                    </div>
-                  </div>
-            </ul>
 
             <!------------------------------------------------->
 
@@ -69,27 +73,134 @@
 </div>
 <!------------------------------------------------->
 </main>
-<div id="ladodeindividual"><h2>Individual</h2></div>
+<div id="ladodeindividual"><div class="container"><h2>Individual</h2></div></div>
 <footer>
-<img src="./imagenes.Final/fernet solo.jpg" alt="" height="250vw">----Informacion sobre la bebida alcoholica---
-        <span><img src="./imagenes.Final/vodka solo.jpg" alt="" height="250vw">----Informacion sobre la bebida alcoholica---</span>
-        <span><img src="./imagenes.Final/gin.jpg" alt=""height="250vw">----Informacion sobre la bebida alcoholica---</span>
+  <div class="responsive">
+    <div class="gallery">
+        <img src="./imagenes.Final/vodka solo.jpg" alt=""  >
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+        <img src="./imagenes.Final/fernet solo.jpg" alt="" ></a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+        <img src="./imagenes.Final/gin.jpg" alt="" ></a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+        <img src="./imagenes.Final/cerveza.jpg" alt="" ></a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
+
+
+
+
         
-        <div id="ladodecombos"><h2>Combos</h2> </div>
-        <img id="imagen-responsive"src="https://via.placeholder.com/200" alt="">----Informacion sobre la bebida alcoholica---
-        <span><img id="imagen-responsive" src="https://via.placeholder.com/200/0000ff" alt="">----Informacion sobre la bebida alcoholica---</span>
-        <span><img id="imagen-responsive" src="https://via.placeholder.com/200/f200" alt="">----Informacion sobre la bebida alcoholica---</span>
+        <div id="ladodecombos"><div class="container"><h2>Combos</h2> </div></div>
+        <div class="responsive">
+    <div class="gallery">
+        <img src="./imagenes.Final/0-8(2).jpg" alt=""  >
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+        <img src="./imagenes.Final/vodka con cepita.jpg" alt="" >
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+        <img src="./imagenes 1/fernet solo.jpg" alt="" >
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+        <img src="./imagenes 1/fernet solo.jpg" alt="" >
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
         
         
-        <div id="ladodemezclas"><h2>Mezclas</h2> </div>
-        <img id="imagen-responsive"src="https://via.placeholder.com/200" alt="">----Informacion sobre la bebida alcoholica---
-        <span><img id="imagen-responsive" src="https://via.placeholder.com/200/0000ff" alt="">----Informacion sobre la bebida alcoholica---</span>
-        <span><img id="imagen-responsive" src="https://via.placeholder.com/200/f200" alt="">----Informacion sobre la bebida alcoholica---</span>
+        <div id="ladodemezclas"><div class="container"><h2>Mezclas</h2> </div></div>
+        <div class="responsive">
+          <div class="gallery">
+              <img src="./imagenes 1/fernet solo.jpg" alt=""  ></a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        </div>
+        
+        
+        <div class="responsive">
+          <div class="gallery">
+              <img src="./imagenes 1/fernet solo.jpg" alt=""></a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+              <img src="./imagenes 1/fernet solo.jpg" alt=""></a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+              <img src="./imagenes 1/fernet solo.jpg" alt=""></a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
+
+
+        <!------------REDES------------------------------------>
         
         
         <div id="ladoderedes"><div class="container"><h2> Redes Sociales</h2></div></div>
-        <div class="centradoUltimo"><img id="imagen-responsive"src="https://via.placeholder.com/200" alt="">----Informacion sobre la bebida alcoholica---
-        <span><img id="imagen-responsive" src="https://via.placeholder.com/200/0000ff" alt="">----Informacion sobre la bebida alcoholica---</span>
+        <div class="responsive">
+          <div class="gallery">
+              <img src="./imagenes 1/fernet solo.jpg" alt=""  ></a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+              <img src="./imagenes 1/fernet solo.jpg" alt="">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
     </div>
         
     <a href="https://api.whatsapp.com/send?phone=1134111875" target="_blank"><img src="./imagenes.Final/whatsapp.png"alt=".." class="btn-wsp" ></a> 
@@ -107,4 +218,7 @@
         <input type="button" value="Hazme click">
       </Div>
 </body>
+</body>
+</head>
+<!-- ULTIMO BODY ES EL FONDO-->
 </html>
