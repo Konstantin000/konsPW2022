@@ -14,8 +14,9 @@ div.gallery {
   }
   
   div.gallery img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
   }
   
   div.desc {

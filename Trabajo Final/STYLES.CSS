@@ -17,8 +17,7 @@
 li{display: inline;margin-left: 100px;}
 /*Este me permite poner uno alado de otro*/
 
-/*span{border: 1px solid rgb(253, 253, 253);display: block;}
-/*si no pongo display block me va mantener en la linea con este me lo tira para abajo*/
+
 
 #imagen-responsive{width: 15vw;}
 /* es para ajustar la imagen en cualquier dispositivo*/
@@ -70,8 +69,9 @@ div.gallery {
   }
   
   div.gallery img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
   }
   
   div.desc {
@@ -108,15 +108,13 @@ div.gallery {
     clear: both;
   }
 
-  img {
+img {
     width:50vw;
-    height:50vw;
-  }
-  /* ME ARREGLA LAS FOTOS PRINCIPALES*/
+    height:50vw;}
+
+/* ME ARREGLA LAS FOTOS PRINCIPALES*/
 
 
 
 
 
-
-    
