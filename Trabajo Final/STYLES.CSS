@@ -61,7 +61,7 @@ li{display: inline;margin-left: 100px;}
 
 
 div.gallery {
-    border: 1px solid #ccc;
+    border: 1px solid black;
   }
   
   div.gallery:hover {
