@@ -101,7 +101,6 @@ div.gallery {
       width: 100%;
     }
   }
-  
   .clearfix:after {
     content: "";
     display: table;
@@ -116,4 +115,9 @@ img {
 
 
 #fondo{background-color:white;}
+
+
+
+
+
 

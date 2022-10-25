@@ -1,0 +1,27 @@
+[
+    {
+      "precio": 1500,
+      "id": 1,
+      "title": "Vodka",
+      "thumbnailUrl": "https://picsum.photos/id/0/600"
+    },
+    {
+      "precio": 2300,
+      "id": 2,
+      "title": "Fernet",
+      "thumbnailUrl": "https://picsum.photos/id/10/600"
+    },
+    {
+      "precio": 3100,
+      "id": 3,
+      "title": "Tequila",
+      "thumbnailUrl": "https://picsum.photos/id/20/600"
+    },
+    {
+      "precio": 4500,
+      "id": 4,
+      "title": "Gin",
+      "thumbnailUrl": "https://picsum.photos/id/30/600"
+    }
+
+  ]

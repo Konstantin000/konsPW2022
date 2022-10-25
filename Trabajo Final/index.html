@@ -7,13 +7,19 @@
     <title>Venta de alcohol</title>
 
     <!------------------------------------------------------------------->
-
+  
     <link rel="stylesheet" href="./STYLES.CSS">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     
-    <!--links de css Y  boustrap-->
-      
     
+    <!--links de css Y  boustrap-->
+  
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--links para el carrito de compras-->
+      
+
 
   <Div class="contenedor">
     <div class="container"><h1>АЛКОГОЛЬ</h1> </div>
@@ -46,9 +52,10 @@
               </div>
             </nav>
 
+            
 
             <!------------------------------------------------->
-
+            
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="container">
   <div class="carousel-inner">
@@ -72,19 +79,43 @@
   </button>
 </div>
 </div>
-<!------------------------------------------------->
 </main>
+
+<!---------------------------->
+
+<!------------------------------------------------->
 <div id="ladodeindividual"><div class="container"><h2>INDIVIDUAL</h2></div></div>
-<footer>
   <div class="responsive">
     <div class="gallery">
 
       <div class="container"><img src="./imagenes.Final/vodka solo.jpg" alt=""  ></div>
       </a>
-      <div class="desc">Vodka smirnoff 750ml.Contiene principalmente agua y alcohol (etanol), entre 30 % y 50%. Algunos incluyen agregados aromatizantes o especias, lo cual va a estar mencionado en la etiqueta</div>
+      <div class="desc"><h3>VODKA</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, laudantium totam. Ut eum, hic possimus perspiciatis repellendus sint laudantium fugiat natus, eius sequi minus aperiam deserunt eligendi eveniet quidem laboriosam.</p>
+        <p class="precioProducto">Precio:</p>
+        <button
+        type="button"
+        class="Comprar"
+        onclick="sumarprecio(10000)"
+        style="BORDER: rgb(128,128,128) 1px dashed; FONT-SIZE: 15pt; FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: rgb(233,233,233)"
+      >
+        Comprar
+      </button>
+      ></div>
     </div>
   </div>
   
+
+
+
+
+
+
+
+
+
+
   <div class="responsive">
     <div class="gallery">
       <div class="container"><img src="./imagenes.Final/fernet solo.jpg" alt="" ></a></div>
@@ -117,7 +148,10 @@
     <div class="gallery">
       <div class="container"><div class="container"><img src="./imagenes.Final/0-8(2).jpg" alt=""  ></div></div>
       </a>
-      <div class="container"><div class="desc">Fernet Branca 1L + 2 Coca Cola 2,25L.</div></div>
+      <div class="container"><div class="desc"><h3>${producto.nombre}</h3>
+        <p>${producto.desc}</p>
+        <p class="precioProducto">Precio:$ ${producto.precio}</p>
+        <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button></div></div>
     </div>
   </div>
   
@@ -152,7 +186,10 @@
         <div class="responsive">
           <div class="gallery">
             <div class="container"><img src="./imagenes.Final/vodka por mayor.jpg" alt=""  ></a></div>
-            <div class="desc">Vodka Smirnoff de 750 Ml + 6 unidades</div>
+            <div class="desc"><h3>${producto.nombre}</h3>
+              <p>${producto.desc}</p>
+              <p class="precioProducto">Precio:$ ${producto.precio}</p>
+              <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button></div>
           </div>
         </div>
         
@@ -181,18 +218,19 @@
         <div class="clearfix"></div>
 
 
-        <!------------REDES------------------------------------>
+        <!------------HIELO------------------------------------>
         
         
         <div id="ladoderedes"><div class="container"><h2> HIELO</h2></div></div>
-
-        <footer>
           <div class="responsive">
             <div class="gallery">
         
               <div class="container"><img src="./imagenes.Final/bolsa de hielo.jpg" alt=""  ></div>
               </a>
-              <div class="desc">Bolsa de hielos de 6 Kilo Gramos</div>
+              <div class="desc"><h3>${Vodka}</h3>
+                <p>${producto.desc}</p>
+                <p class="precioProducto">Precio:$ ${producto.precio}</p>
+                <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button></div>
             </div>
           </div>
           
@@ -231,28 +269,32 @@
 
 <!-----ACA QUISIERA PONER UNA PARTE BLANCA  PARA DIFERENCIAR DEL RESTO O NEGRA-->
 <footer>
-      <div class="container"><h2>INFORMACION</h2></div>
-
-        <a>Seguinos en</a>
-        <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dignissimos iste ullam nobis, dolores eaque ipsum blanditiis earum perspiciatis nulla amet nam ab aut animi doloribus esse eos laudantium quaerat.</a>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  <section>
+    <div class="carro" id="calculadora">
+    <div class="textocalculadora">
+      <h3>Carrito</h3>
+      <p>¡Tocá en "Agregar al Carrito" en el producto que querés para agregarlo al carrito!</p>
+    </div>
+    <div class="zona_calculo">
+      <p id="Total">TOTAL: $0 Pesos</p>
+      <button type="button" class="btn btn-primary " onclick="Limpiar()">Vaciar Carrito</button>
+    </div></div></section>
+  
       </footer>
-        <a href="https://api.whatsapp.com/send?phone=1134111875" target="_blank"><img src="./imagenes.Final/whatsapp.png"alt=".." class="btn-wsp" ></a> 
-        <!---WHATSAPP DE STEV DE CLASE-->
+     
+     
+     
+     
+     
+           <!---WHATSAPP DE STEV DE CLASE-->
+     
+      <a href="https://api.whatsapp.com/send?phone=1134111875" target="_blank"><img src="./imagenes.Final/whatsapp.png"alt=".." class="btn-wsp" ></a> 
+       
+       
+       
+       
+       
+  
 
 
 
@@ -261,9 +303,19 @@
 </body>
 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <!---JAVA-->
+    <script defer src="./java/modal.js"></script>
+    <script defer src="./java/ecommerce.js"></script>
+    <script defer src="./java/script.js"></script>
+
+<!---JAVA-->
 </body>
 </head>
 <!-- ULTIMO BODY ES EL FONDO-->
 </html>
+
+
+
+<!---ARRANCO CON LA IDEA DEL CARRITO-->

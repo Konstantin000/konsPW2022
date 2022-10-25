@@ -1,51 +1,112 @@
-*{color: goldenrod;}
+*{color: rgb(250, 250, 250);}
 /* se que todo lo que escriba va tener ese mismo color por el "*", sino lo modifico*/
 
-#padding-interno{padding: 50px;}
+/*#padding-interno{padding: 50px;}
 /* Lo alejado que quiero estar del borde*/
 
-#whatsapp{position: fixed;bottom: 10px;right: 10px;}
-/*Lo que permite es poner un bloque en la parte derecha de la pantalla*/
-/*#whatsapp{position: fixed;right: 50VW;}Va estar en el medio  de la pantalla*/
-/* VOY A VER SI COLOCO EL WHATSAPP*/
+*{background-image: url(./imagenes.Final/fondo\ de\ madera\ negro.jpg);}
 
 
-/*Me permite modificar el fondo de la pagina*/
 
-.titular{background-color: cadetblue;color: salmon;font-size: 50px;}
-/*me permite modificar en un cierto lugar el fondo del titutlo y la palabra*/
-
-#titular3{color: aqua;}
-/*otro tipo de resaltado de titular*/
 
 #relativa{position:relative;left: 100px;top: 100px;}
 /* me sale fuera de la pantalla una kaka*/
 
 
+
 li{display: inline;margin-left: 100px;}
 /*Este me permite poner uno alado de otro*/
 
-span{border: 1px solid gold;display: block;}
-/*si no pongo display block me va mantener en la linea con este me lo tira para abajo*/
+
 
 #imagen-responsive{width: 15vw;}
 /* es para ajustar la imagen en cualquier dispositivo*/
 
-*{font-family:"Courier New","Sans-Serif";font-style: "italic";} 
+/*{font-family:"Courier New","Sans-Serif";font-style: "italic"; background-color: black;}*/
 /*para la fuente de la letra*/
-  
+
+.container {  display: flex;justify-content: center;}
+/*para centrar las imagenes*/
+
+.centradoUltimo{pantalla:flex;justify-content:center;}
+
+
 
 .btn-wsp{
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 30px;
-    right: 30px;
-    background: #0df053;
-    color: #fff;
-    border-radius: 50px;
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+/*whatapp*/
+
+
+/*.contenedor{width: 100%;max-width: ;;margin: 0 auto;overflow:hidden ;}*/
+    
+
+
+
+
+div.gallery {
+    border: 1px solid black;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  div.desc {
+    padding: 15px;
     text-align: center;
-    font-size: 30px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.3)
-    z-index: 100;}
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+img {
+    width:50vw;
+    height:50vw;}
