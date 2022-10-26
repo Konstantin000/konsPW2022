@@ -117,7 +117,19 @@ img {
 #fondo{background-color:white;}
 
 
+/*para los botones del carrito*/
+.boton-agregar {
+  background-color: gold;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  border: none;}
 
-
-
+  .boton-agregar:hover {
+    cursor: pointer;
+}
+.boton-agregar:focus {
+    outline: none;
+}
 
