@@ -7,9 +7,19 @@
     <title>Hace tu Pedido</title>
     <link rel="stylesheet" href="./STYLES.CSS">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-</head>
+    <!----MANDAR FORMUULARIO-->
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+
+  </head>
+  
 <body>
+
+
+
   <form class="row g-3 needs-validation" novalidate>
+  
+    <form action="https://formsubmit.co/kambrossenkov@itba.edu.ar" method="POST" method="post">
+  
     <div class="col-md-4">
       <label for="validationCustom01" class="form-label">Nombre</label>
       <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
@@ -19,7 +29,7 @@
     </div>
     <div class="col-md-4">
       <label for="validationCustom02" class="form-label">Apellido</label>
-      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+      <input type="text" class="form-control" id="validationCustom02" value="Otto" name="user_name" required>
       <div class="valid-feedback">
         Looks good!
       </div>
@@ -75,6 +85,8 @@
       <button class="btn btn-primary" type="submit">Enviar formulario</button>
     </div>
   </form>
+
+</form>
 
   <script src="./java/script2.js"></script>
 </body>
